@@ -391,6 +391,7 @@ declare namespace Eris {
     defaultImageSize?: number;
     disableEvents?: { [s: string]: boolean };
     firstShardID?: number;
+    gatewayURL?: string;
     getAllUsers?: boolean;
     guildCreateTimeout?: number;
     intents: number | (IntentStrings | number)[];
@@ -430,6 +431,7 @@ declare namespace Eris {
     decodeReasons?: boolean;
     disableLatencyCompensation?: boolean;
     domain?: string;
+    domains?: string[];
     latencyThreshold?: number;
     ratelimiterOffset?: number;
     requestTimeout?: number;
